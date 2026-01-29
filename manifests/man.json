@@ -1,0 +1,34 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://llkem.github.io/kuzushi/manifests/man.json",
+  "@type" : "sc:Manifest",
+  "label" : "kuzushi",
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "@id" : "https://llkem.github.io/kuzushi/manifest/kuzushi.json/sequence/normal",
+    "canvases" : [ {
+      "@id" : "https://llkem.github.io/kuzushi/manifest/kuzushi.json/canvas/p1",
+      "@type" : "sc:Canvas",
+      "label" : "p.1",
+      "width" : 640,
+      "height" : 853,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://llkem.github.io/kuzushi/manifest/kuzushi.json/canvas/p1",
+        "resource" : {
+          "@id" : "https://llkem.github.io/kuzushi/images/kuzushi/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 640,
+          "height" : 853,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://llkem.github.io/kuzushi/images/kuzushi",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          }
+        }
+      } ]
+    } ]
+  } ]
+}
