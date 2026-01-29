@@ -1,0 +1,13 @@
+{
+  "id" : "https://llkem.github.io/kuzushi/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in llkem/kuzushi project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://llkem.github.io/kuzushi/manifests/man.json",
+    "label" : "kuzushi"
+  } ]
+}
